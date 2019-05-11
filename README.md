@@ -1,16 +1,16 @@
-# Mocking
+# sinon-mocker
 stateless utilities for managing mocks and stubs in your node tests
 
 # Install
 ```
-npm install -D mocking
+npm install -D sinon-mocker
 ```
 
 # Example
 
 ```
 const SomeModule = require('./a-module');
-const lib = require('mocking');
+const lib = require('sinon-mocker');
 
 const assert = require('chai').assert;
 const sinon = require('sinon');
